@@ -2,7 +2,7 @@ body {
   height: 100vh;
   font-family: "Poppins", sans-serif;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("/img/3654071.jpg");
+    url("img/home_img.jpg");
   background-size: cover;
   background-position: center;
   text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
