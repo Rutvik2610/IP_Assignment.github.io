@@ -13,6 +13,9 @@
                     event.preventDefault()
                     event.stopPropagation()
                 }
+                else {
+                  alert("Form Submitted.")
+                }
 
                 form.classList.add('was-validated')
             }, false)
