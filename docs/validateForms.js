@@ -13,11 +13,13 @@
                     event.preventDefault()
                     event.stopPropagation()
                 }
-                else {
-                  alert("Form Submitted.")
+                else{
+                    alert("Success");
+                    location.replace("https://rutvik2610.github.io/IP_Assignment.github.io/index.html");
                 }
 
                 form.classList.add('was-validated')
+
             }, false)
         })
 })()
